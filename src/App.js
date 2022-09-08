@@ -32,18 +32,23 @@ class App extends Component {
 
     const randomDogImageUrl = " https://dog.ceo/api/breeds/image/random"
 
+    let randomDogImageUrls = []
+
     for(let i = 0;  i < 10; i++) {
     
         fetch(randomDogImageUrl)
           .then((response) => response.json())
           .then((data) => {
 
-              console.log(i++, data.message)
+              randomDogImageUrls.push(data.message)
+              console.log(randomDogImageUrls)
           })
           .catch((err) => {
               console.log("There was an error getting the dog picture!")
           })
     }
+
+    
   }
 
   render() {
