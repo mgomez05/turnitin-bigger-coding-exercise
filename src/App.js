@@ -1,23 +1,40 @@
-import './App.css';
+import React, {Component} from 'react'
+import DogImage from './DogImage'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+
+  state = {
+    randomDogImageUrl: "",
+  }
+
+  componentDidMount() {
+    const randomDogImageUrl = " https://dog.ceo/api/breeds/image/random"
+
+    fetch(randomDogImageUrl)
+      .then((response) => response.json())
+      .then((data) => {
+
+          this.setState({
+            randomDogImageUrl: data.message
+          })
+      })
+      .catch((err) => {
+        console.log("There was an error getting the dog picture!")
+      })
+  }
+
+  render() {
+
+    const { randomDogImageUrl } = this.state
+
+    return (
+      <div className="RussApp">
+        <h1>Hello, Turnitin World!</h1>
+
+        <DogImage imageSourceUrl={randomDogImageUrl} />
+      </div>
+    )
+  }
 }
 
 export default App;
