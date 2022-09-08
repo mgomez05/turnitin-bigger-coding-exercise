@@ -27,8 +27,6 @@ class App extends Component {
 
       // Fetch the 10 random dog images
       this.fetchTenRandomDogImages()
-
-      
   }
 
   // Fetch multiple random dog images
