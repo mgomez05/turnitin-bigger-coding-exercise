@@ -5,14 +5,14 @@ const DogImageList = (props) => {
     const { dogImageObjects } = props
 
     return (
-        <ul>
+        <div>
             { dogImageObjects.map(dogImageObject => (
-                <li key={dogImageObject.url}>
-                    <div>{dogImageObject.url}</div>
-                    <div>{dogImageObject.breed}</div>
-                </li>
+                <div key={dogImageObject.url}>
+                    <img src={dogImageObject.url}></img>
+                    <p>{dogImageObject.breed}</p>
+                </div>
             ))}
-        </ul>
+        </div>
     )
 }
 
