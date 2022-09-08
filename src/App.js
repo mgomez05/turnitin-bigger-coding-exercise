@@ -41,8 +41,21 @@ class App extends Component {
       .then((response) => response.json())
       .then((data) => {
 
+          // Convert the list of random dog urls
+          // into objects, each with a url and breed
+          let dogDataList = data.message 
+          dogDataList = dogDataList.map((entry, index) => {
+
+              return ({ 
+                  url: entry,
+                  breed: this.parseDogBreed(entry)
+              })
+              
+          })
+
+          // Update our state with the newly created list of random dog objects
           this.setState({
-            tenRandomDogImageObjects: data.message
+            tenRandomDogImageObjects: dogDataList
           })
       })
       .catch((err) => {
