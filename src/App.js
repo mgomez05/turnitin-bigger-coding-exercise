@@ -5,6 +5,7 @@ class App extends Component {
 
   state = {
     randomDogImageUrl: "",
+    tenRandomDogImageObjects: [],
   }
 
   componentDidMount() {
@@ -40,10 +41,9 @@ class App extends Component {
       .then((response) => response.json())
       .then((data) => {
 
-          randomDogImageUrls = data.message
-
-          console.log(this.parseDogBreed(randomDogImageUrls[0]))
-
+          this.setState({
+            tenRandomDogImageObjects: data.message
+          })
       })
       .catch((err) => {
           console.log("There was an error getting the dog picture!")
@@ -55,8 +55,6 @@ class App extends Component {
   // it parses the breed name from the url and returns it 
   parseDogBreed = (url) => {
 
-    console.log(url)
-
     // Parse the dog breed from the url
     let breedAndImagePartOfUrl = url.split('https://images.dog.ceo/breeds/')[1]
     let breed = breedAndImagePartOfUrl.split('/')[0]
@@ -66,13 +64,14 @@ class App extends Component {
 
   render() {
 
-    const { randomDogImageUrl } = this.state
+    const { randomDogImageUrl, tenRandomDogImageObjects } = this.state
 
     return (
       <div className="RussApp">
         <h1>Hello, Turnitin World!</h1>
 
         <DogImage imageSourceUrl={randomDogImageUrl} />
+        <p>{tenRandomDogImageObjects}</p>
       </div>
     )
   }
