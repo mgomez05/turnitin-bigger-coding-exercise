@@ -24,31 +24,27 @@ class App extends Component {
       })
 
       // Fetch the 10 random dog images
-      this.fetchRandomDogImages()
+      this.fetchTenRandomDogImages()
   }
 
   // Fetch multiple random dog images
-  fetchRandomDogImages = () => {
+  fetchTenRandomDogImages = () => {
 
-    const randomDogImageUrl = " https://dog.ceo/api/breeds/image/random"
+    const randomDogImageUrl = " https://dog.ceo/api/breeds/image/random/10"
 
     let randomDogImageUrls = []
 
-    for(let i = 0;  i < 10; i++) {
-    
-        fetch(randomDogImageUrl)
-          .then((response) => response.json())
-          .then((data) => {
+    fetch(randomDogImageUrl)
+      .then((response) => response.json())
+      .then((data) => {
 
-              randomDogImageUrls.push(data.message)
-              console.log(randomDogImageUrls)
-          })
-          .catch((err) => {
-              console.log("There was an error getting the dog picture!")
-          })
-    }
+          randomDogImageUrls = data.message
+          console.log(randomDogImageUrls)
 
-    
+      })
+      .catch((err) => {
+          console.log("There was an error getting the dog picture!")
+      })
   }
 
   render() {
