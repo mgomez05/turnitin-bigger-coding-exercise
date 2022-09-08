@@ -25,6 +25,8 @@ class App extends Component {
 
       // Fetch the 10 random dog images
       this.fetchTenRandomDogImages()
+
+      
   }
 
   // Fetch multiple random dog images
@@ -39,12 +41,27 @@ class App extends Component {
       .then((data) => {
 
           randomDogImageUrls = data.message
-          console.log(randomDogImageUrls)
+
+          console.log(this.parseDogBreed(randomDogImageUrls[0]))
 
       })
       .catch((err) => {
           console.log("There was an error getting the dog picture!")
       })
+  }
+
+
+  // Given the url of a dog picture from https://dog.ceo/api/breeds/image/random/,
+  // it parses the breed name from the url and returns it 
+  parseDogBreed = (url) => {
+
+    console.log(url)
+
+    // Parse the dog breed from the url
+    let breedAndImagePartOfUrl = url.split('https://images.dog.ceo/breeds/')[1]
+    let breed = breedAndImagePartOfUrl.split('/')[0]
+
+    return breed 
   }
 
   render() {
