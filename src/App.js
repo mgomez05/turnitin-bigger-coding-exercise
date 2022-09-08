@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import DogImage from './DogImage'
 
 class App extends Component {
 
@@ -30,7 +31,7 @@ class App extends Component {
       <div className="RussApp">
         <h1>Hello, Turnitin World!</h1>
 
-        <img src={randomDogImageUrl}></img>
+        <DogImage imageSourceUrl={randomDogImageUrl} />
       </div>
     )
   }
