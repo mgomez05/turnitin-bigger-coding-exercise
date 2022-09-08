@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import DogImage from './DogImage'
+import DogImageList from './DogImageList'
 
 class App extends Component {
 
@@ -84,7 +85,7 @@ class App extends Component {
         <h1>Hello, Turnitin World!</h1>
 
         <DogImage imageSourceUrl={randomDogImageUrl} />
-        <p>{tenRandomDogImageObjects}</p>
+        <DogImageList dogImageObjects={tenRandomDogImageObjects} />
       </div>
     )
   }
