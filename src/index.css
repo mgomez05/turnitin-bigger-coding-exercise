@@ -12,6 +12,15 @@ code {
     monospace;
 }
 
+/* Center everything in the app container 
+ *    - the h1 header 
+ *    - the main random dog picture
+ *    - the 10 dog pictures
+ */
+.RussApp {
+  text-align: center;
+}
+
 /* Center the Descriptions of the Images */
 p.desc {
   padding: 15px;
