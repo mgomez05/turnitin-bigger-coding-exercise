@@ -5,9 +5,54 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* Set the background of the web page to the solid white
+     found on Turnitin's web page */
+  background-color: #FFFFFF
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Center the elements in the app container 
+ *    - the h1 header 
+ *    - the main random dog picture
+ */
+.RussApp {
+  text-align: center;
+}
+
+/* Set the background where the spirit dog header and image are contained
+   to the off-white color found on Turnitin's web page */ 
+.spiritDogContainer {
+  background-color: #F5F5F5;
+}
+
+/* Set the text color of the header and paragraph text to
+   to the color of the text on Turnitin's web page */
+h1, h2, p {
+  color: #003C46;
+}
+
+/* Make all the images the same size */
+img {
+  width:  200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Make all images have a border containing the dog photo and its breed name*/
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 280px;
+}
+
+/* Center the Names of the Dog Breeds */
+p.desc {
+  padding: 15px;
+  text-align: center;
 }
