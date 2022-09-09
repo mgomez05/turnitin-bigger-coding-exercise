@@ -31,6 +31,12 @@ p.desc {
   text-align: center;
 }
 
+/* Set the background where the spirit dog header and image are contained
+   to the off-white color found on Turnitin's web page */ 
+.spiritDogContainer {
+  background-color: #F5F5F5;
+}
+
 /* Set the text color of the header and paragraph text to
    to the color of the text on Turnitin's web page */
 h1, h2, p {
