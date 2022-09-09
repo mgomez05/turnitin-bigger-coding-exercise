@@ -16,10 +16,9 @@ code {
     monospace;
 }
 
-/* Center everything in the app container 
+/* Center the elements in the app container 
  *    - the h1 header 
  *    - the main random dog picture
- *    - the 10 dog pictures
  */
 .RussApp {
   text-align: center;
@@ -52,7 +51,7 @@ div.gallery {
   width: 280px;
 }
 
-/* Center the Descriptions of the Images */
+/* Center the Names of the Dog Breeds */
 p.desc {
   padding: 15px;
   text-align: center;
