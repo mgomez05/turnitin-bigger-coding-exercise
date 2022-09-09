@@ -5,6 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* Set the background of the web page to solid white on 
+     Turnitin's web page */
+  background-color: #FFFFFF
 }
 
 code {
@@ -25,6 +29,12 @@ code {
 p.desc {
   padding: 15px;
   text-align: center;
+}
+
+/* Set the text color of the header and paragraph text to
+   to the color of the text on Turnitin's web page */
+h1, h2, p {
+  color: #003C46;
 }
 
 /* Make all the images the same size */
