@@ -83,6 +83,8 @@ class App extends Component {
         <h1>Hello, Turnitin World!</h1>
 
         <DogImage imageSourceUrl={randomDogImageUrl} />
+
+        <h2>Here Are Your 10 Random Dogs!</h2>
         <DogImageList dogImageObjects={tenRandomDogImageObjects} />
       </div>
     )
