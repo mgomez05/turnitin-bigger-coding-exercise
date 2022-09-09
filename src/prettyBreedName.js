@@ -60,7 +60,7 @@ function getPrettyBreedName(breedName) {
       case "elkhound":
         return "Norwegian Elkhound"
 
-      case "lapphund":
+      case "finnish":
         return "Finnish Lapphund"
 
       case "frise":
