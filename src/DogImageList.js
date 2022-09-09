@@ -10,7 +10,7 @@ const DogImageList = (props) => {
             { dogImageObjects.map(dogImageObject => (
                 <div className="gallery" key={dogImageObject.url}>
                     <img src={dogImageObject.url}></img>
-                    <p className="desc">{getPrettyBreedName(dogImageObject.breed)}</p>
+                    <h3 className="desc">{getPrettyBreedName(dogImageObject.breed)}</h3>
                 </div>
             ))}
         </div>

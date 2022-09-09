@@ -42,7 +42,7 @@ div.galleryContainer {
 
 /* Set the text color of the header and paragraph text to
    to the color of the text on Turnitin's web page */
-h1, h2, p {
+h1, h2, h3 {
   color: #003C46;
 }
 
