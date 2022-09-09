@@ -1,9 +1,9 @@
 // Given a dog breed name parsed from the url of 
-// a dog picture, it turns the name into
-// prettier name
-//    - Capitalized first letters for each word
-//    - No hyphens
-//    - Correct Order of words 
+// a random dog picture, it makes the breed name prettier.
+// Specifically, this function:
+//    - Capitalizes the first letter of each word in the breed name
+//    - Replaces hyphens with a single space
+//    - Reorders the words in the breed name so they are in the correct order
 //
 // Ex. elkhound-norwegian -> Norwegian Elkhound
 function getPrettyBreedName(breedName) {
