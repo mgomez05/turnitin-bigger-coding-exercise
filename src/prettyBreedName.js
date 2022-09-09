@@ -1,7 +1,18 @@
+// Given a dog breed name parsed from the url of 
+// a dog picture, it turns the name into
+// prettier name
+//    - Capitalized first letters for each word
+//    - No hyphens
+//    - Correct Order of words 
+//
+// Ex. elkhound-norwegian -> Norwegian Elkhound
 function getPrettyBreedName(breedName) {
 
   let breedNameArray = breedName.split('-')
 
+  // If there was no hyphen in the breed name of the dog,
+  // handle the edge cases, 
+  // and default to capitalizing the first letter of the breed name 
   if (breedNameArray.length === 1) {
 
     let name = breedNameArray[0]
@@ -12,6 +23,9 @@ function getPrettyBreedName(breedName) {
     else if (name === "cotondetulear") return "Coton de Tulear"
     else return firstLetterToUpperCase(breedNameArray[0])
   }
+  // Otherwise, handle the different edge cases for hyphened breed names,
+  // defaulting to capitalizing the first letter of both words in the breed name
+  // and reversing their order
   else {
 
     switch(breedNameArray[0]) {
