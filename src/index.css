@@ -24,3 +24,11 @@ img {
   height: 100px;
   object-fit: cover;
 }
+
+/* Make all images have a border containing the dog photo and its breed name*/
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
