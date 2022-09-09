@@ -7,9 +7,9 @@ const DogImageList = (props) => {
 
     return (
         <div className="galleryContainer">
-            { dogImageObjects.map(dogImageObject => (
-                <div className="gallery" key={dogImageObject.url}>
-                    <img src={dogImageObject.url}></img>
+            { dogImageObjects.map((dogImageObject, index) => (
+                <div className="gallery" key={index}>
+                    <img src={dogImageObject.url} alt={"Couldn't Load Random Dog #" + index + "!"}></img>
                     <h3>{getPrettyBreedName(dogImageObject.breed)}</h3>
                 </div>
             ))}
