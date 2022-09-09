@@ -6,7 +6,7 @@ const DogImageList = (props) => {
     const { dogImageObjects } = props
 
     return (
-        <div>
+        <div className="galleryContainer">
             { dogImageObjects.map(dogImageObject => (
                 <div className="gallery" key={dogImageObject.url}>
                     <img src={dogImageObject.url}></img>

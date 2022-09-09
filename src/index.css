@@ -24,6 +24,16 @@ code {
   text-align: center;
 }
 
+/* Set up a flex container for the gallery of images so that
+ * the images are centered in the div and wrap to the next
+ * line if they don't fit
+ */
+div.galleryContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 /* Set the background where the spirit dog header and image are contained
    to the off-white color found on Turnitin's web page */ 
 .spiritDogContainer {
