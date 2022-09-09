@@ -45,8 +45,8 @@ h1, h2, p {
 
 /* Make all the images the same size */
 img {
-  width:  100px;
-  height: 100px;
+  width:  200px;
+  height: 200px;
   object-fit: cover;
 }
 
@@ -55,5 +55,5 @@ div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
-  width: 180px;
+  width: 280px;
 }
