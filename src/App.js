@@ -71,9 +71,8 @@ class App extends Component {
     let breedAndImagePartOfUrl = url.split('https://images.dog.ceo/breeds/')[1]
     let breed = breedAndImagePartOfUrl.split('/')[0]
 
-    return breed
+    return breed 
   }
-
 
   render() {
 
