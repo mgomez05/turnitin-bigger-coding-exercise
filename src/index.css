@@ -25,12 +25,6 @@ code {
   text-align: center;
 }
 
-/* Center the Descriptions of the Images */
-p.desc {
-  padding: 15px;
-  text-align: center;
-}
-
 /* Set the background where the spirit dog header and image are contained
    to the off-white color found on Turnitin's web page */ 
 .spiritDogContainer {
@@ -56,4 +50,10 @@ div.gallery {
   border: 1px solid #ccc;
   float: left;
   width: 280px;
+}
+
+/* Center the Descriptions of the Images */
+p.desc {
+  padding: 15px;
+  text-align: center;
 }
