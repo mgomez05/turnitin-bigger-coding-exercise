@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
 import DogImage from './DogImage'
 import DogImageList from './DogImageList'
-import { getPrettyBreedName } from './prettyBreedName';
 
 class App extends Component {
 
@@ -72,12 +71,7 @@ class App extends Component {
     let breedAndImagePartOfUrl = url.split('https://images.dog.ceo/breeds/')[1]
     let breed = breedAndImagePartOfUrl.split('/')[0]
 
-    let newBreedName = getPrettyBreedName(breed) 
-
-    console.log("new breed name: ")
-    console.log(newBreedName)
-
-    return newBreedName
+    return breed
   }
 
 
