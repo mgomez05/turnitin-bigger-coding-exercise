@@ -53,6 +53,12 @@ div.galleryContainer img {
   object-fit: cover;
 }
 
+img#spiritDogImage{
+  width:  300px;
+  height: 300px;
+  object-fit: cover;
+}
+
 /* Make all images have a border containing the dog photo and its breed name*/
 div.gallery {
   margin: 5px;
