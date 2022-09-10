@@ -5,6 +5,7 @@ const DogImageList = (props) => {
 
     const { dogImageObjects } = props
 
+    // If there are dog images to display, display them
     if (dogImageObjects.length > 0) {
         return (
             <div className="galleryContainer">
@@ -18,6 +19,7 @@ const DogImageList = (props) => {
         )
     }
 
+    // Otherwise, if there are no dog images, show an error message
     else {
         return (
             <div>
