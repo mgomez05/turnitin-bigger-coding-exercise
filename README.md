@@ -1,4 +1,4 @@
-# Introduction
+# About this Project
 
 Hello Turnitin Team, or others who may be viewing this private repository. This repo was created to complete the "Bigger Coding Challenge" provided by Turnitin. It provides a web application that shows the user a random picture of the dog at the top of the page, as well as 10 random dog images at the bottom of the page, as specified by the challenge document.
 
