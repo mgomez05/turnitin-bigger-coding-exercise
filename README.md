@@ -15,13 +15,29 @@ To see the different sources that were used to create this application, see the 
 
 ## Instructions for Running this Application 
 
-The instructions in the sections that follow were provided by Facebook when this project was created using **Create React App**. I have removed all instructions aside from the `npm start` command, as that is the only command necessary for running the application. (The other instructions were provided for all apps created using [Create React App](https://github.com/facebook/create-react-app) and were outside the scope of this exercise). 
+To run this program, follow the instructions below:
 
-In other words, all you need to do is clone this repository, switch into the newly created directory, and run the following command:
+1. Clone this repository using by running the following command on the command line:
 
-`npm start`
+## `git clone`
 
-This will run the app in development mode at `localhost:3000`. For more information, see the instructions below:
+2. Switch into the newly created directory:
+
+## `cd turnitin-bigger-coding-exercise`
+
+3. Ensure you have npm and node installed on your computer, then run the following command to install the necessary dependencies for the app:
+
+## `npm install`
+
+4. To run the app, run the following command:
+
+## `npm start`
+
+This will start the app at `localhost:3000`, and open up the web page for you in your broswer.
+
+**NOTE**: The instructions in the sections that follow were provided by Facebook when this project was created using **Create React App**. I have removed all instructions aside from the `npm start` command, as that is the only command necessary for running the application. (The other instructions were provided for all apps created using [Create React App](https://github.com/facebook/create-react-app) and were outside the scope of this exercise). 
+
+This will run the app . For more information, see the instructions below:
 
 ## Getting Started with Create React App
 
