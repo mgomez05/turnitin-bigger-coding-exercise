@@ -26,9 +26,6 @@ class App extends Component {
             })
           }
       })
-      .catch((err) => {
-        console.log("There was an error getting the dog picture!")
-      })
 
     // Fetch the 10 random dog images
     this.fetchTenRandomDogImages()
@@ -64,10 +61,6 @@ class App extends Component {
             })
 
           }
-          
-      })
-      .catch((err) => {
-          console.log("There was an error getting the dog picture!")
       })
   }
 
