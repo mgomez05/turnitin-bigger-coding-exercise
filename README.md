@@ -1,6 +1,6 @@
 # About this Project
 
-Hello Turnitin Team, or others who may be viewing this private repository. This repo was created to complete the "Bigger Coding Challenge" provided by Turnitin. It provides a web application that shows a random picture of a dog at the top of the page, as well as 10 random dog images at the bottom of the page, as specified by the challenge document.
+Hello Turnitin Team, or others who may be viewing this private repository. This repo was created to complete the "Bigger Coding Challenge" provided by Turnitin. It provides a web application that shows a random picture of a dog at the top of the page and 10 random dog images at the bottom of the page, as specified by the challenge document.
 
 The application retrieves the random dog pictures using Dog API, whose documentation can be found at https://dog.ceo/dog-api/
 
@@ -11,7 +11,9 @@ The application also uses some "borrowed" assets for the purpose of creating a m
 
 ## Instructions for Running this Application 
 
-The instructions in the sections that follow were provided by Facebook when this project was created using **Create React App**. I have removed all instructions aside from the `npm start` command, as that is the only command necessary for running the application. (The other instructions were provided for all apps created using [Create React App](https://github.com/facebook/create-react-app) and were not relevant. In other words, all you need to do is download the app and run the following command:
+The instructions in the sections that follow were provided by Facebook when this project was created using **Create React App**. I have removed all instructions aside from the `npm start` command, as that is the only command necessary for running the application. (The other instructions were provided for all apps created using [Create React App](https://github.com/facebook/create-react-app) and were not relevant). 
+
+In other words, all you need to do is download the app and run the following command:
 
 `npm start`
 
