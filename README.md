@@ -19,19 +19,19 @@ To run this program, follow the instructions below:
 
 1. Clone this repository using by running the following command on the command line:
 
-## `git clone`
+### `git clone`
 
 2. Switch into the newly created directory:
 
-## `cd turnitin-bigger-coding-exercise`
+### `cd turnitin-bigger-coding-exercise`
 
 3. Ensure you have npm and node installed on your computer, then run the following command to install the necessary dependencies for the app:
 
-## `npm install`
+### `npm install`
 
 4. To run the app, run the following command:
 
-## `npm start`
+### `npm start`
 
 This will start the app at `localhost:3000`, and open up the web page for you in your broswer.
 
