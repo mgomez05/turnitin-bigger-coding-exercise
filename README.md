@@ -19,7 +19,7 @@ To run this program, follow the instructions below:
 
 1. Clone this repository using by running the following command on the command line:
 
-### `git clone`
+### `git clone https://github.com/mgomez05/turnitin-bigger-coding-exercise.git`
 
 2. Switch into the newly created directory:
 
