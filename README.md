@@ -39,7 +39,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-# Works Cited / Useful Links
+## Works Cited / Useful Links
 
 I thank the sources below for contributing in one way or another to the creation of this app!
 
