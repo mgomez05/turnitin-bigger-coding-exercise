@@ -17,9 +17,13 @@ class App extends Component {
       .then((response) => response.json())
       .then((data) => {
 
-          this.setState({
-            randomDogImageUrl: data.message
-          })
+          // Update the state if a random dog image url is in the response
+          if (data.status === "success") {
+
+            this.setState({
+              randomDogImageUrl: data.message
+            })
+          }
       })
       .catch((err) => {
         console.log("There was an error getting the dog picture!")
