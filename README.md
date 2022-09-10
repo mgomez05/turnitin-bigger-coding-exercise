@@ -17,7 +17,7 @@ To see the different sources that were used to create this application, see the 
 
 To run this program, follow the instructions below:
 
-1. Clone this repository using by running the following command on the command line:
+1. Clone this repository by running the following command on the command line:
 
 ```console
 git clone https://github.com/mgomez05/turnitin-bigger-coding-exercise.git
