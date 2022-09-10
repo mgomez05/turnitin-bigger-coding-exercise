@@ -5,8 +5,8 @@ import RandomDogImageGallery from './RandomDogImageGallery'
 class App extends Component {
 
   state = {
-    randomDogImageUrl: "",
-    tenRandomDogImageObjects: [],
+    randomDogImageUrl: "",         // The URL of the Spirit Dog Image
+    tenRandomDogImageObjects: [],  // The URL and Breed of the 10 Random Dog Images
   }
 
   // Called after the component is loaded into the DOM and rendered
