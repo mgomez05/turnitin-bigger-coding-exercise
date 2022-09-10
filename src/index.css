@@ -38,6 +38,8 @@ div.galleryContainer {
    to the off-white color found on Turnitin's web page */ 
 .spiritDogContainer {
   background-color: #F5F5F5;
+  padding-top: 1px;
+  padding-bottom: 20px;
 }
 
 /* Set the text color of the header and paragraph text to
@@ -47,10 +49,30 @@ h1, h2, h3 {
 }
 
 /* Make all the images the same size */
-img {
+div.galleryContainer img {
   width:  200px;
   height: 200px;
   object-fit: cover;
+}
+
+img#spiritDogImage{
+
+  /* Add a shadow behind the image */
+  box-shadow: 8px 8px 10px #aaa;
+
+  /* Add a green border with double lines, and padding 
+     between the border and the picture */
+  border: 10px double green;
+  padding: 10px;
+
+  /* Add rounded corners */
+  border-radius: 30px;
+
+  /* Make the width of the picture always 300px x 300px*/
+  width:  300px;
+  height: 300px;
+  object-fit: cover;
+
 }
 
 /* Make all images have a border containing the dog photo and its breed name*/
