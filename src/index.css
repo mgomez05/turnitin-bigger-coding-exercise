@@ -84,8 +84,7 @@ div.gallery {
   /* Add a shadow behind the image */
   box-shadow: 8px 8px 10px #aaa;
 
-  /* Add a blue border with double lines, and padding 
-     between the border and the picture */
+  /* Add a blue border with double lines, and padding to the top of the image */
   border: 10px double #34568B;
   padding-top: 35px;
 
