@@ -25,7 +25,7 @@ To run this program, follow the instructions below:
 
 ### `cd turnitin-bigger-coding-exercise`
 
-3. Ensure you have npm and node installed on your computer, then run the following command to install the necessary dependencies for the app:
+3. Ensure you have [npm and node.js installed globally on your computer](https://www.taniarascia.com/how-to-install-and-use-node-js-and-npm-mac-and-windows/), then run the following command to install the necessary dependencies for the app:
 
 ### `npm install`
 
