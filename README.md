@@ -7,6 +7,7 @@ The application retrieves the random dog pictures using Dog API, whose documenta
 The application also uses some "borrowed" assets for the purpose of creating a more stylistically interesting web page:
 - The text color of all the text on the page is the same as the primary text on Turnitin's web page: `#003C46` 
 - The two main background colors are also the same as the primary background colors on Turnitin's web page: `#FFFFFF` and `#F5F5F5`
+- The web page's tab logo (i.e. "favicon") is taken directly from the Dog CEO web page https://dog.ceo/
 
 ## Instructions for Running this Application 
 
@@ -57,3 +58,5 @@ You may also see any lint errors in the console.
 
     - 6 Simple CSS Tricks for images
         - https://www.godaddy.com/garage/6-simple-css-tricks-for-images/
+
+- Dog API from Dog CEO: https://dog.ceo/dog-api/
