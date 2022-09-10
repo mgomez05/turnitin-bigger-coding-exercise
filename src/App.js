@@ -89,7 +89,7 @@ class App extends Component {
 
     return (
       <div className="RandomDogApp">
-        <h1>Hello, Turnitin World!</h1>
+        <h1>Hello Turnitin Team!</h1>
 
         <div className="spiritDogContainer">
           <h2>Here's Your Spirit Dog!</h2>
