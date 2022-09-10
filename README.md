@@ -26,6 +26,8 @@
 
 # Instructions for Running this Application from Facebook 
 
+The instructions below were provided by Facebook when this project was created using **Create React App**
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
