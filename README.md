@@ -41,27 +41,11 @@ npm install
 npm start
 ```
 
-This will start the app at `localhost:3000`, and open up the web page for you in your broswer.
+This will start the app in development mode at `localhost:3000`, and open up the web page for you in your browser.
 
-**NOTE**: The instructions in the sections that follow were provided by Facebook when this project was created using **Create React App**. I have removed all instructions aside from the `npm start` command, as that is the only command necessary for running the application. (The other instructions were provided for all apps created using [Create React App](https://github.com/facebook/create-react-app) and were outside the scope of this exercise). 
-
-This will run the app . For more information, see the instructions below:
-
-## Getting Started with Create React App
+## Credit to Facebook's "Create React App"
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
 ## Works Cited / Useful Links
 
@@ -88,3 +72,4 @@ I thank the sources below for contributing in one way or another to the creation
    - https://www.godaddy.com/garage/6-simple-css-tricks-for-images/
 - Importing and Exporting functions in JS
    - https://bobbyhadz.com/blog/javascript-export-function
+
