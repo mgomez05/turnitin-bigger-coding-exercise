@@ -38,8 +38,6 @@ class App extends Component {
 
     const randomDogImageUrl = " https://dog.ceo/api/breeds/image/random/10"
 
-    let randomDogImageUrls = []
-
     fetch(randomDogImageUrl)
       .then((response) => response.json())
       .then((data) => {
