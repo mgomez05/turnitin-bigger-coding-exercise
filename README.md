@@ -13,11 +13,11 @@ The application also uses some "borrowed" assets for the purpose of creating a m
 
 The instructions in the sections that follow were provided by Facebook when this project was created using **Create React App**. I have removed all instructions aside from the `npm start` command, as that is the only command necessary for running the application. (The other instructions were provided for all apps created using [Create React App](https://github.com/facebook/create-react-app) and were outside the scope of this exercise). 
 
-In other words, all you need to do is download the app and run the following command:
+In other words, all you need to do is clone this repository, switch into the newly created directory, and run the following command:
 
 `npm start`
 
-For more information, see the instructions below:
+This will run the app in development mode at `localhost:3000`. For more information, see the instructions below:
 
 ## Getting Started with Create React App
 
