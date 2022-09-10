@@ -5,10 +5,11 @@ import RandomDogImageGallery from './RandomDogImageGallery'
 class App extends Component {
 
   state = {
-    randomDogImageUrl: "",
-    tenRandomDogImageObjects: [],
+    randomDogImageUrl: "",         // The URL of the Spirit Dog Image
+    tenRandomDogImageObjects: [],  // The URL and Breed of the 10 Random Dog Images
   }
 
+  // Called after the component is loaded into the DOM and rendered
   componentDidMount() {
     const randomDogImageUrl = " https://dog.ceo/api/breeds/image/random"
 
@@ -25,20 +26,15 @@ class App extends Component {
             })
           }
       })
-      .catch((err) => {
-        console.log("There was an error getting the dog picture!")
-      })
 
-      // Fetch the 10 random dog images
-      this.fetchTenRandomDogImages()
+    // Fetch the 10 random dog images
+    this.fetchTenRandomDogImages()
   }
 
   // Fetch multiple random dog images
   fetchTenRandomDogImages = () => {
 
     const randomDogImageUrl = " https://dog.ceo/api/breeds/image/random/10"
-
-    let randomDogImageUrls = []
 
     fetch(randomDogImageUrl)
       .then((response) => response.json())
@@ -65,15 +61,11 @@ class App extends Component {
             })
 
           }
-          
-      })
-      .catch((err) => {
-          console.log("There was an error getting the dog picture!")
       })
   }
 
 
-  // Given the url of a dog picture from https://dog.ceo/api/breeds/image/random/,
+  // Given the url of a dog picture from GET https://dog.ceo/api/breeds/image/random/,
   // it parses the breed name from the url and returns it 
   parseDogBreed = (url) => {
 
@@ -90,7 +82,7 @@ class App extends Component {
 
     return (
       <div className="RandomDogApp">
-        <h1>Hello, Turnitin World!</h1>
+        <h1>Hello Turnitin Team!</h1>
 
         <div className="spiritDogContainer">
           <h2>Here's Your Spirit Dog!</h2>
