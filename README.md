@@ -47,18 +47,20 @@ I thank the sources below for contributing in one way or another to the creation
    - Used for extracting different colors used in the app
 - Dog API from Dog CEO: https://dog.ceo/dog-api/
    - Used for setting up the Dog API calls in the app, and for borrowing the Dog CEO logo
-- How to examine the CSS of a web page using dev tools: https://www.freecodecamp.org/news/how-to-use-css-overview-in-chrome-developer-tools/#:~:text=on%20More%20tools-,Click%20on%20the%20three%20vertical%20dots%20located%20on%20the%20top,select%20the%20CSS%20overview%20feature.
+- The names of all possible breeds from the Dog API https://dog.ceo/api/breeds/list/all
+   - Used for making the dog names on the page look good
+      - See the `getPrettyBreedName()` function in `prettyBreedName.js` for more information
+- How to examine the CSS of a web page using dev tools: 
+   - https://www.freecodecamp.org/news/how-to-use-css-overview-in-chrome-developer-tools/#:~:text=on%20More%20tools-,Click%20on%20the%20three%20vertical%20dots%20located%20on%20the%20top,select%20the%20CSS%20overview%20feature.
 - How to Make a CSS Image Gallery: https://www.w3schools.com/css/css_image_gallery.asp
 - How to Style Images in CSS: https://www.w3schools.com/css/css3_images.asp
-- How to Make All Images of Different Heights and Width the Same Height and Width: https://stackoverflow.com/questions/19414856/how-can-i-make-all-images-of-different-height-and-width-the-same-via-css
-- The names of all possible breeds from the Dog API https://dog.ceo/api/breeds/list/all
-   - Used for creating the getPrettyBreedName() function in prettyBreedName.js:
-- Importing and Exporting functions in JS
-   - https://bobbyhadz.com/blog/javascript-export-function
+- How to Make All Images of Different Heights and Width the Same Height and Width
+    - https://stackoverflow.com/questions/19414856/how-can-i-make-all-images-of-different-height-and-width-the-same-via-css
 - A Guide to Flexbox in CSS:
    - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 - Concatenating Strings and Variables in React
    - https://stackoverflow.com/questions/39523040/concatenating-variables-and-strings-in-react
 - 6 Simple CSS Tricks for images
    - https://www.godaddy.com/garage/6-simple-css-tricks-for-images/
-
+- Importing and Exporting functions in JS
+   - https://bobbyhadz.com/blog/javascript-export-function
