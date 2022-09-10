@@ -44,6 +44,8 @@ class App extends Component {
       .then((response) => response.json())
       .then((data) => {
 
+          if (data.status === "success") {
+            
           // Convert the list of random dog urls
           // into objects, each with a url and breed
           let dogDataList = data.message 
@@ -60,6 +62,9 @@ class App extends Component {
           this.setState({
             tenRandomDogImageObjects: dogDataList
           })
+
+          }
+          
       })
       .catch((err) => {
           console.log("There was an error getting the dog picture!")
