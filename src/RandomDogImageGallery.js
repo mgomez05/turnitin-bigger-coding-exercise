@@ -1,7 +1,7 @@
 import React from "react";
 import { getPrettyBreedName } from './prettyBreedName';
 
-const DogImageList = (props) => {
+const RandomDogImageGallery = (props) => {
 
     const { dogImageObjects } = props
 
@@ -31,4 +31,4 @@ const DogImageList = (props) => {
     }
 }
 
-export default DogImageList
+export default RandomDogImageGallery
