@@ -63,6 +63,9 @@ img#spiritDogImage{
   border: 10px double green;
   padding: 10px;
 
+  /* Add rounded corners */
+  border-radius: 30px;
+
   /* Make the width of the picture always 300px x 300px*/
   width:  300px;
   height: 300px;
