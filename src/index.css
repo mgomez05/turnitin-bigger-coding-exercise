@@ -58,6 +58,11 @@ img#spiritDogImage{
   /* Add a shadow behind the box */
   box-shadow: 8px 8px 10px #aaa;
 
+  /* Add a green border with double lines, and padding 
+     between the border and the picture */
+  border: 10px double green;
+  padding: 10px;
+
   /* Make the width of the picture always 300px x 300px*/
   width:  300px;
   height: 300px;
