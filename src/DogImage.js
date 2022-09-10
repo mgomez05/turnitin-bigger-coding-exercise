@@ -4,7 +4,7 @@ const DogImage = (props) => {
 
     const { imageSourceUrl } = props
 
-    return (<img src={imageSourceUrl}></img>)
+    return (<img src={imageSourceUrl} alt="Couldn't Load Your Spirit Dog!"></img>)
 }
 
 export default DogImage 

@@ -60,3 +60,7 @@ div.gallery {
   float: left;
   width: 280px;
 }
+
+h3#tenDogsErrorMessage, h4 {
+  color: red;
+}
