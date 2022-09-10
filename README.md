@@ -9,6 +9,10 @@ The application also uses some "borrowed" assets for the purpose of creating a m
 - The two main background colors are also the same as the primary background colors on Turnitin's web page: `#FFFFFF` and `#F5F5F5`
 - The web page's tab logo (i.e. "favicon") is taken directly from the Dog CEO web page https://dog.ceo/
 
+To see how to run this application, see the **Instructions for Running this Application** section below.
+
+To the different sources that were used to create this application, see the **Works Cited / Links Used** at the end of this README
+
 ## Instructions for Running this Application 
 
 The instructions in the sections that follow were provided by Facebook when this project was created using **Create React App**. I have removed all instructions aside from the `npm start` command, as that is the only command necessary for running the application. (The other instructions were provided for all apps created using [Create React App](https://github.com/facebook/create-react-app) and were outside the scope of this exercise). 
