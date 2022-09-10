@@ -1,4 +1,29 @@
-# Getting Started with Create React App
+# About this Project
+
+Hello Turnitin Team, or others who may be viewing this private repository. This repo was created to complete the "Bigger Coding Challenge" provided by Turnitin. It provides a React-based web application that shows a random picture of a dog at the top of the page and 10 random dog images at the bottom of the page, as specified by the challenge document.
+
+The application retrieves the random dog pictures using Dog API, whose documentation can be found at https://dog.ceo/dog-api/
+
+The application also uses some "borrowed" assets for the purpose of creating a more stylistically interesting web page:
+- The text color of all the text on the page is the same as the primary text on Turnitin's web page: `#003C46` 
+- The two main background colors are also the same as the primary background colors on Turnitin's web page: `#FFFFFF` and `#F5F5F5`
+- The web page's tab logo (i.e. "favicon") is taken directly from the Dog CEO web page https://dog.ceo/
+
+To see how to run this application, see the **Instructions for Running this Application** section below.
+
+To see the different sources that were used to create this application, see the **Works Cited / Useful Links** at the end of this document
+
+## Instructions for Running this Application 
+
+The instructions in the sections that follow were provided by Facebook when this project was created using **Create React App**. I have removed all instructions aside from the `npm start` command, as that is the only command necessary for running the application. (The other instructions were provided for all apps created using [Create React App](https://github.com/facebook/create-react-app) and were outside the scope of this exercise). 
+
+In other words, all you need to do is clone this repository, switch into the newly created directory, and run the following command:
+
+`npm start`
+
+This will run the app in development mode at `localhost:3000`. For more information, see the instructions below:
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -14,57 +39,28 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+## Works Cited / Useful Links
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I thank the sources below for contributing in one way or another to the creation of this app!
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Turnitin's website: https://turnitin.com/
+   - Used for extracting different colors used in the app
+- Dog API from Dog CEO: https://dog.ceo/dog-api/
+   - Used for setting up the Dog API calls in the app, and for borrowing the Dog CEO logo
+- The names of all possible breeds from the Dog API https://dog.ceo/api/breeds/list/all
+   - Used for making the dog names on the page look good
+      - See the `getPrettyBreedName()` function in `prettyBreedName.js` for more information
+- How to examine the CSS of a web page using dev tools: 
+   - https://www.freecodecamp.org/news/how-to-use-css-overview-in-chrome-developer-tools/#:~:text=on%20More%20tools-,Click%20on%20the%20three%20vertical%20dots%20located%20on%20the%20top,select%20the%20CSS%20overview%20feature.
+- How to Make a CSS Image Gallery: https://www.w3schools.com/css/css_image_gallery.asp
+- How to Style Images in CSS: https://www.w3schools.com/css/css3_images.asp
+- How to Make All Images of Different Heights and Width the Same Height and Width
+    - https://stackoverflow.com/questions/19414856/how-can-i-make-all-images-of-different-height-and-width-the-same-via-css
+- A Guide to Flexbox in CSS:
+   - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- Concatenating Strings and Variables in React
+   - https://stackoverflow.com/questions/39523040/concatenating-variables-and-strings-in-react
+- 6 Simple CSS Tricks for images
+   - https://www.godaddy.com/garage/6-simple-css-tricks-for-images/
+- Importing and Exporting functions in JS
+   - https://bobbyhadz.com/blog/javascript-export-function
