@@ -29,8 +29,8 @@ class App extends Component {
         console.log("There was an error getting the dog picture!")
       })
 
-      // Fetch the 10 random dog images
-      this.fetchTenRandomDogImages()
+    // Fetch the 10 random dog images
+    this.fetchTenRandomDogImages()
   }
 
   // Fetch multiple random dog images
