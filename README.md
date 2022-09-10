@@ -1,3 +1,13 @@
+# Introduction
+
+Hello Turnitin Team, or others who may be viewing this private repository. This repo was created to complete the "Bigger Coding Challenge" provided by Turnitin. It provides a web application that shows the user a random picture of the dog at the top of the page, as well as 10 random dog images at the bottom of the page, as specified by the challenge document.
+
+The application retrieves the random dog pictures using Dog API, whose documentation can be found at https://dog.ceo/dog-api/
+
+The application also uses some "borrowed" assets for the purpose of creating a more stylistically interesting web page:
+- The text color of all the text on the page is the same as the primary text on Turnitin's web page: `#003C46` 
+- The two main background colors are also the same as the primary background colors on Turnitin's web page: `#FFFFFF` and `#F5F5F5`
+
 # Works Cited / Links Used
     - Turnitin's website: https://turnitin.com/
         - Used for extracting different colors used in the app
