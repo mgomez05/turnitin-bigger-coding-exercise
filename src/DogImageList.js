@@ -23,7 +23,7 @@ const DogImageList = (props) => {
     else {
         return (
             <div>
-                <h3 id="tenDogsErrorMessage">{"Couldn't Load Your Random Dogs Pictures!"}</h3>
+                <h3 id="tenDogsErrorMessage">Couldn't Load Your Random Dogs Pictures!</h3>
                 <h4>Please try again later</h4>
             </div>
 
