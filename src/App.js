@@ -9,6 +9,7 @@ class App extends Component {
     tenRandomDogImageObjects: [],
   }
 
+  // Called after the component is loaded into the DOM and rendered
   componentDidMount() {
     const randomDogImageUrl = " https://dog.ceo/api/breeds/image/random"
 
