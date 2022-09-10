@@ -38,6 +38,8 @@ div.galleryContainer {
    to the off-white color found on Turnitin's web page */ 
 .spiritDogContainer {
   background-color: #F5F5F5;
+  padding-top: 1px;
+  padding-bottom: 20px;
 }
 
 /* Set the text color of the header and paragraph text to
