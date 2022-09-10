@@ -5,6 +5,7 @@ const DogImageList = (props) => {
 
     const { dogImageObjects } = props
 
+    if (dogImageObjects.length > 0) {
     return (
         <div className="galleryContainer">
             { dogImageObjects.map((dogImageObject, index) => (
@@ -15,6 +16,18 @@ const DogImageList = (props) => {
             ))}
         </div>
     )
+            }
+
+            else {
+                return (
+                    <div>
+                        <h3 id="tenDogsErrorMessage">{"Couldn't Load Your Random Dogs Pictures!"}</h3>
+                        <h4>Please try again later</h4>
+                    </div>
+
+                )
+        
+            }
 }
 
 export default DogImageList
