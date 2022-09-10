@@ -44,24 +44,25 @@ class App extends Component {
       .then((response) => response.json())
       .then((data) => {
 
+          // Update the state with the random dog information if the request was successful
           if (data.status === "success") {
             
-          // Convert the list of random dog urls
-          // into objects, each with a url and breed
-          let dogDataList = data.message 
-          dogDataList = dogDataList.map((entry, index) => {
+            // Convert the list of random dog urls
+            // into objects, each with a url and breed
+            let dogDataList = data.message 
+            dogDataList = dogDataList.map((entry, index) => {
 
-              return ({ 
-                  url: entry,
-                  breed: this.parseDogBreed(entry)
-              })
+                return ({ 
+                    url: entry,
+                    breed: this.parseDogBreed(entry)
+                })
               
-          })
+            })
 
-          // Update our state with the newly created list of random dog objects
-          this.setState({
-            tenRandomDogImageObjects: dogDataList
-          })
+            // Update our state with the newly created list of random dog objects
+            this.setState({
+              tenRandomDogImageObjects: dogDataList
+            })
 
           }
           
