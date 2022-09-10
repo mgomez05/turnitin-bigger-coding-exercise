@@ -72,7 +72,7 @@ class App extends Component {
   }
 
 
-  // Given the url of a dog picture from https://dog.ceo/api/breeds/image/random/,
+  // Given the url of a dog picture from GET https://dog.ceo/api/breeds/image/random/,
   // it parses the breed name from the url and returns it 
   parseDogBreed = (url) => {
 
