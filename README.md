@@ -11,7 +11,7 @@ The application also uses some "borrowed" assets for the purpose of creating a m
 
 To see how to run this application, see the **Instructions for Running this Application** section below.
 
-To the different sources that were used to create this application, see the **Works Cited / Links Used** at the end of this README
+To see the different sources that were used to create this application, see the **Works Cited / Useful Links** at the end of this document
 
 ## Instructions for Running this Application 
 
