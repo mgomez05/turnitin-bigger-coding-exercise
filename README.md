@@ -1,4 +1,32 @@
-# Getting Started with Create React App
+# Works Cited / Links Used
+    - Turnitin's website: https://turnitin.com/
+        - Used for extracting different colors used in the app
+    - How to examine the CSS of a web page using dev tools: https://www.freecodecamp.org/news/how-to-use-css-overview-in-chrome-developer-tools/#:~:text=on%20More%20tools-,Click%20on%20the%20three%20vertical%20dots%20located%20on%20the%20top,select%20the%20CSS%20overview%20feature.
+
+    - How to Make a CSS Image Gallery: https://www.w3schools.com/css/css_image_gallery.asp
+
+    - How to Style Images in CSS: https://www.w3schools.com/css/css3_images.asp
+
+    - How to Make All Images of Different Heights and Width the Same Height and Width: https://stackoverflow.com/questions/19414856/how-can-i-make-all-images-of-different-height-and-width-the-same-via-css
+
+    - The names of all possible breeds from the Dog API, used for creating
+      the getPrettyBreedName() function in prettyBreedName.js: https://dog.ceo/api/breeds/list/all
+
+    - Importing and Exporting functions in JS
+        - https://bobbyhadz.com/blog/javascript-export-function
+
+    - A Guide to Flexbox in CSS:
+        - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+    - Concatenating Strings and Variables in React
+        - https://stackoverflow.com/questions/39523040/concatenating-variables-and-strings-in-react
+
+    - 6 Simple CSS Tricks for images
+        - https://www.godaddy.com/garage/6-simple-css-tricks-for-images/
+
+# Instructions for Running this Application from Facebook 
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
