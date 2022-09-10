@@ -89,7 +89,7 @@ class App extends Component {
     const { randomDogImageUrl, tenRandomDogImageObjects } = this.state
 
     return (
-      <div className="RussApp">
+      <div className="RandomDogApp">
         <h1>Hello, Turnitin World!</h1>
 
         <div className="spiritDogContainer">
