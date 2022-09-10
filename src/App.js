@@ -17,7 +17,7 @@ class App extends Component {
       .then((response) => response.json())
       .then((data) => {
 
-          // Update the state if a random dog image url is in the response
+          // Update the state with the random dog image url if the request was successful
           if (data.status === "success") {
 
             this.setState({
