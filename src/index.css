@@ -54,9 +54,15 @@ div.galleryContainer img {
 }
 
 img#spiritDogImage{
+
+  /* Add a shadow behind the box */
+  box-shadow: 8px 8px 10px #aaa;
+
+  /* Make the width of the picture always 300px x 300px*/
   width:  300px;
   height: 300px;
   object-fit: cover;
+
 }
 
 /* Make all images have a border containing the dog photo and its breed name*/
